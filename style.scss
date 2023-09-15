@@ -13,3 +13,17 @@ ul {
 a {
 	text-decoration: none;
 }
+
+.wrap {
+	width: 1000px;
+	height: 700px;
+	border: 1px solid #888;
+	margin: 100px auto;
+	position: relative;
+
+	.box {
+		width: 100px;
+		height: 100px;
+		background: aqua;
+	}
+}
