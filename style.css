@@ -29,10 +29,10 @@ section#sec2 {
   justify-content: center;
   align-items: center;
 }
-section#sec2 h1 {
-  font: bold 170px/1 "arial";
-  color: #fff;
-  margin-bottom: 50px;
+section#sec2 .box {
+  width: 200px;
+  height: 200px;
+  background: #333;
 }
 section#sec3 {
   background: lightgreen;
