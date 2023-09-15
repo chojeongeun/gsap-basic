@@ -28,10 +28,10 @@ section {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		.box {
-			width: 200px;
-			height: 200px;
-			background: #333;
+		h1 {
+			font: bold 170px/1 'arial';
+			color: #fff;
+			margin-bottom: 50px;
 		}
 	}
 	&#sec3 {
