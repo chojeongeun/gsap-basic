@@ -14,31 +14,27 @@ a {
 	text-decoration: none;
 }
 
-.wrap {
-	width: 1000px;
-	height: 700px;
-	border: 1px solid #888;
-	margin: 100px auto;
+section {
+	width: 100%;
+	height: 100vh;
 	position: relative;
-	> div {
-		opacity: 0;
-		width: 100px;
-		height: 100px;
-	}
+	overflow: hidden;
 
-	.box {
-		background: aqua;
+	&#sec1 {
+		background: pink;
 	}
-	.box2 {
-		background: hotpink;
+	&#sec2 {
+		background: lightblue;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.box {
+			width: 200px;
+			height: 200px;
+			background: #333;
+		}
 	}
-	.box3 {
-		background: orange;
-	}
-	.box4 {
+	&#sec3 {
 		background: lightgreen;
-	}
-	.box5 {
-		background: coral;
 	}
 }
