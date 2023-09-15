@@ -12,9 +12,11 @@ wrap.addEventListener('click', () => {
 
 //bg, transform-origin, duration, relativePosition
 wrap.addEventListener('click', () => {
-	//	gsap.to('.box', { rotation: 360, backgroundColor: '#ffff00', duration: 2, transformOrigin: '100% 100%' });
-	// 누적시키면서 이동 가능
-	gsap.to('.box', { x: 500 });
-	gsap.to('.box2', { x: 500, delay: 0 });
-	gsap.to('.box3', { x: 500, repeat: 5, yoyo: true, ease: 'bounce-out' }); //왔다갔다 반복
+	gsap.to('div', {
+		duration: 1,
+		x: 700,
+		opacity: 1,
+		stagger: 0.2, //시간차 발생(delay 대신 gsap만의 기능)
+	});
 });
+//시간차 모션

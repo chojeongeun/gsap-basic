@@ -20,20 +20,25 @@ a {
 	border: 1px solid #888;
 	margin: 100px auto;
 	position: relative;
-
-	.box {
+	> div {
+		opacity: 0;
 		width: 100px;
 		height: 100px;
+	}
+
+	.box {
 		background: aqua;
 	}
 	.box2 {
-		width: 100px;
-		height: 100px;
 		background: hotpink;
 	}
 	.box3 {
-		width: 100px;
-		height: 100px;
 		background: orange;
+	}
+	.box4 {
+		background: lightgreen;
+	}
+	.box5 {
+		background: coral;
 	}
 }

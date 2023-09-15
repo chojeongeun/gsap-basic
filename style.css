@@ -21,20 +21,25 @@ a {
   margin: 100px auto;
   position: relative;
 }
-.wrap .box {
+.wrap > div {
+  opacity: 0;
   width: 100px;
   height: 100px;
+}
+.wrap .box {
   background: aqua;
 }
 .wrap .box2 {
-  width: 100px;
-  height: 100px;
   background: hotpink;
 }
 .wrap .box3 {
-  width: 100px;
-  height: 100px;
   background: orange;
+}
+.wrap .box4 {
+  background: lightgreen;
+}
+.wrap .box5 {
+  background: coral;
 }
 
 /*# sourceMappingURL=style.css.map */
