@@ -11,12 +11,12 @@ wrap.addEventListener('click', () => {
 */
 
 //bg, transform-origin, duration, relativePosition
+const tl = gsap.timeline();
 wrap.addEventListener('click', () => {
-	gsap.to('div', {
-		duration: 1,
-		x: 700,
-		opacity: 1,
-		stagger: 0.2, //시간차 발생(delay 대신 gsap만의 기능)
-	});
+	tl.to('.box', { x: 700, opacity: 1, duration: 2 });
+	tl.to('.box2', { x: 700, scale: 1.5, opacity: 1, duration: 0.5 });
+	tl.to('.box3', { x: 700, rotation: 150, opacity: 1, duration: 1.5 });
+	tl.to('.box4', { x: 700, scale: 0.5, opacity: 1, duration: 2 });
+	tl.to('.box5', { x: 700, y: 300, opacity: 1, duration: 0.3 });
 });
-//시간차 모션
+//무조건 이전꺼가 끝나야 다음꺼가 동기화돼서 처리됨
