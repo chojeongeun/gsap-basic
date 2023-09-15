@@ -26,5 +26,15 @@ a {
   height: 100px;
   background: aqua;
 }
+.wrap .box2 {
+  width: 100px;
+  height: 100px;
+  background: hotpink;
+}
+.wrap .box3 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
 
 /*# sourceMappingURL=style.css.map */
